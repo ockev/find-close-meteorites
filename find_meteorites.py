@@ -7,6 +7,7 @@ def calc_dist(lat1, lon1, lat2, lon2):
     lat2 = math.radians(lat2)
     lon2 = math.radians(lon2)
 
+    # Haversine Formula, used to find the distance between two points on Earth
     h = math.sin( (lat2 - lat1) / 2) ** 2 + \
       math.cos(lat1) * \
       math.cos(lat2) * \
