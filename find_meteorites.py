@@ -20,6 +20,7 @@ def get_dist(meteor):
 
 my_loc = (40.801941, -73.953072)
 
+# Gets data from NASA API
 meteor_resp = requests.get('https://data.nasa.gov/resource/gh4g-9sfh.json')
 meteor_data = meteor_resp.json()
 
